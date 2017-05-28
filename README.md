@@ -1,3 +1,17 @@
+# Para baixar a aplicação inicial basta seguir os passos abaixo
+
+1. Executar no terminal
+
+git clone https://github.com/devdeck101/twitter-app.git
+
+2. Executar a instalação dos pacotes via npm
+
+npm install
+
+3. Para testar a aplicação
+
+ng serve
+
 # TwitterApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
