@@ -1,0 +1,29 @@
+<div class="ui segment">
+
+
+<!-- Mensagem para quando nõ houverem tweets -->
+<div class="ui yellow message" *ngIf='!tweets'>
+  <i class="star icon"></i>
+  Não existem tweets.
+</div>
+
+<!-- Listagem de Tweets -->
+<div class="ui items">
+
+  <div class="item" *ngFor='let tweet of tweets'>
+    <a class="ui tiny image">
+      <img src="{{tweet.avatar}}">
+    </a>
+    <div class="content">
+      <a class="header">{{tweet.name}}</a>
+      <div class="description">
+        <p>{{tweet.body}}</p>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+</div>
