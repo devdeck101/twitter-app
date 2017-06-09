@@ -7,8 +7,10 @@
   Não existem tweets.
 </div>
 
+<div class="ui green message" *ngIf='likedTweet'>Você deixou seu like para o tweet de {{likedTweet.name}}</div>
+
 <!-- Listagem de Tweets -->
-<app-tweet *ngFor='let currTweet of tweets' [tweet]='currTweet'></app-tweet>
+<app-tweet *ngFor='let currTweet of tweets' [tweet]='currTweet'  (likedTweetChild)='handleLikedTweetFromChildComponent($event)'></app-tweet>
 
 
 </div>
