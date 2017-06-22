@@ -5,7 +5,9 @@
       "user": "stevie",
       "name": "Stevie Gray",
       "body": "Stevie Feliciano is a library scientist living in New York City. She likes to spend her time reading, running, and writing.",
-      "likes": [],
+      "likes": [
+        "stevie"
+      ],
       "avatar": "../assets/images/avatar/stevie.jpg"
     },
     {
